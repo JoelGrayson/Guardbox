@@ -77,6 +77,7 @@ void loop() {
         } else {
           Serial.println("User wrong");
           noise(5);
+          lock();
           reset();
         }
       }
